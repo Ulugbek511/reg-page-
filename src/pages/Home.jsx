@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoryForm from '../components/CategoryForm';
+// import CategoryForm from '../components/CategoryForm';
 function Home() {
   return (
     <div>
@@ -7,7 +7,8 @@ function Home() {
       <div style={{lineHeight:"2",fontSize:"20px"}}>
         <a  href='/category'> Categories page</a> <br />
         <a href="/products">Products page</a> <br />
-        <a href="/register">Register page</a>
+        <a href="/register">login page</a>
+        <a href="/regpage">Reg page 2</a>
       </div>
      
       {/* <link rel="stylesheet" href={CategoryForm} /> */}

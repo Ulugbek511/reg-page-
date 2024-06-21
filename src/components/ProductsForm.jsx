@@ -21,6 +21,7 @@ function ProductsForm({ onSubmit, initialValues }) {
 
     const handleSubmit = () => {
         onSubmit(prodForm)
+       
     }
 
     useEffect(() => {
